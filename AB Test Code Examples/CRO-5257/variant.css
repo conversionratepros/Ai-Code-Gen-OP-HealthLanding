@@ -1,0 +1,10 @@
+html body.cro-ki69-cta .et_pb_contact_form button.et_pb_contact_submit,
+html body.cro-ki69-cta #callbackcolfooter button.et_pb_contact_submit {
+    width: 100%;
+    background-color: #33E2D1 !important;
+}
+
+html body.cro-ki69-cta .et_pb_contact_form button.et_pb_contact_submit:hover,
+html body.cro-ki69-cta #callbackcolfooter button.et_pb_contact_submit:hover {
+    background-color: #40aee1 !important;
+}

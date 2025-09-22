@@ -1,0 +1,1304 @@
+html body.cro101 #valuestacks {
+    display: none;
+}
+
+html body.cro101 #discounts {
+    display: none;
+}
+
+html body.cro101 #reviews {
+    background-color: #282972;
+    padding-bottom: 50px;
+}
+
+/* -----Card---- */
+
+html body.cro101 .cro101-choose-Oneplan-top-header {
+    color: #282972;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+    padding-bottom: 12px;
+}
+
+html body.cro101 .cro101-choose-Oneplan-card {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 16px;
+    background: #E9EAEF;
+    width: 100%;
+    max-width: 429px;
+}
+
+html body.cro101 .cro101-choose-Oneplan-card-header {
+    /* align-self: stretch; */
+    color: #282B6E;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+html body.cro101 .cro101-choose-Oneplan-card-header span {
+    font-weight: 700;
+}
+
+html body.cro101 .cro101-choose-Oneplan-wrapper {
+    padding-top: 30px;
+    padding-bottom: 56px;
+}
+
+html body.cro101 .cro101-choose-Oneplan-card-description {
+    color: #000;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+html body.cro101 .cro101-choose-Oneplan-card-header-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+html body.cro101 .cro101-choose-Oneplan-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+@media (max-width:980px) {
+    html body.cro101 .cro101-choose-Oneplan-inner {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    html body.cro101 .cro101-choose-Oneplan-card {
+        max-width: 100%;
+        padding: 50px;
+    }
+
+    html body.cro101 .cro101-choose-Oneplan-card-header {
+        font-size: 2.2em;
+    }
+
+    html body.cro101 .cro101-choose-Oneplan-card-header {
+        font-size: 2.5em;
+    }
+
+    html body.cro101 .cro101-choose-Oneplan-card-description {
+        font-size: 2em;
+    }
+
+    html body.cro101 svg.cro-check-mark {
+        height: 80px;
+        width: 80px;
+    }
+
+    html body.cro101 .cro101-choose-Oneplan-top-header {
+        font-size: 4.2em;
+        padding-bottom: 60px;
+        padding-top: 100px;
+    }
+
+    html body.cro101 .cro101-choose-Oneplan-card-header-icon {
+        gap: 32px;
+    }
+
+    html body.cro101 .cro101-choose-Oneplan-card {
+        gap: 16px;
+    }
+}
+
+/* -----Slider-header-text----- */
+
+html body.cro101 .cro101-reviews-header-text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+}
+
+html body.cro101 .cro101-reviews-subheader-text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+html body.cro101 .cro101-reviews-header-subheader {
+    padding-top: 55px;
+    padding-bottom: 24px;
+}
+
+html body.cro101 #reviews:before {
+    content: '';
+    /* background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI1MHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTEyODAgMTQwVjBTOTkzLjQ2IDE0MCA2NDAgMTM5IDAgMCAwIDB2MTQweiIvPjwvZz48L3N2Zz4=); */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='50px' viewBox='0 0 1280 140' preserveAspectRatio='none'%3E%3Cg fill='%23E9EAEF'%3E%3Cpath d='M1280 140V0S993.46 140 640 139 0 0 0 0v140z'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 100% 50px;
+    bottom: -3px;
+    height: 50px;
+    position: absolute;
+    /* background-color: #282972; */
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+html body.cro101 #simpleandaffordable {
+    display: none;
+}
+
+@media (max-width:980px) {
+    html body.cro101 .cro101-reviews-header-text {
+        font-size: 4.2em;
+        line-height: normal;
+        padding-bottom: 28px;
+    }
+
+    html body.cro101 .cro101-reviews-subheader-text {
+        font-size: 2.25em;
+        line-height: normal;
+    }
+}
+
+/* #simpleandaffordable .container {
+    display: none;
+} */
+
+
+/* -------Health Insurance------ */
+
+html body.cro101 .cro-t-101-card {
+    width: 100%;
+    max-width: 246px;
+    min-width: 246px;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid #D4D7E6;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+
+html body.cro101 .cro-t-101-card-inner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    /* flex-wrap: wrap; */
+}
+
+html body.cro101 .cro-t-101-card-top-part {
+    border-radius: 8px;
+    background: #505E68;
+    padding: 16px;
+    width: 100%;
+}
+
+html body.cro101 .cro-t-101-card-heading-cro-plan {
+    color: #FFF;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+html body.cro101 .cro-t-101-card-heading-cro-from {
+    color: #FFF;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+html body.cro101 .cro-t-101-card-heading-price {
+    color: #FFF;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    /* 133.333% */
+}
+
+html body.cro101 .cro-t-101-card-per-month {
+    color: #FFF;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+html body.cro101 .cro-t-101-card-heading-text {
+    color: #282972;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1;
+    /* 120% */
+}
+
+html body.cro101 .cro-t-101-subheading-text {
+    color: #000;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+html body.cro101 .cro-t-101-card-heading-heading-subheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+html body.cro101 .cro-t-101-card-plan-brochure a {
+    color: #282B6E;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    cursor: pointer;
+}
+
+html body.cro101 .cro-t-101-card-plan-brochure img {
+    /* width: 30px; */
+    width: 24px;
+    margin-right: 5px;
+    left: 0;
+    font-size: 10px;
+    position: relative;
+    top: -1px;
+}
+
+html body.cro101 .cro-t-101-card-plan-brochure {
+    display: none;
+}
+
+html body.cro101 .cro-t-101-plan-card-wrapper {
+    padding: 80px 0 80px;
+
+}
+
+html body.cro101 .cro-t-101-plan-card-container {
+    background-color: #E9EAEF;
+}
+
+html body.cro101 div#simpleandaffordable {
+    background-color: #E9EAEF !important;
+    /* padding: 0; */
+}
+
+html body.cro101 .cro-t-101-card3 .cro-t-101-card-top-part {
+    background-color: #3175B7;
+}
+
+html body.cro101 .cro-t-101-card4 .cro-t-101-card-top-part {
+    background-color: #40AEE1;
+}
+
+html body.cro101 .cro-t-101-card5 .cro-t-101-card-top-part {
+    background-color: #62C6C0;
+}
+
+html body.cro101 .cro-t-101-card-call-me-button {
+    /* border-radius: 16px;
+    border: 2px solid #FFF;
+    background: #40AEE1;
+    box-shadow: 1px 0px 6.4px 0px rgba(99, 99, 99, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    cursor: pointer;
+}
+html body.cro101 .cro-t-101-card-call-me-button > a {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: #40AEE1;
+    box-shadow: 1px 0px 6.4px 0px rgba(99, 99, 99, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+html body.cro101 .cro-t-101-card-call-me-button a:hover {
+    transition: 0.5s all ease;
+    background-color: #33e2d1 !important;
+}
+html body.cro101 .cro-t-101-card-call-me-button a {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+html body.cro101 .cro-t-101-card-quote-button {
+    /* border-radius: 16px;
+    border: 2px solid #FFF;
+    background: #33E2D1;
+    box-shadow: 1px 0px 6.4px 0px rgba(99, 99, 99, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    cursor: pointer;
+}
+
+html body.cro101 .cro-t-101-card-quote-button a {
+    color: #282B6E;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+html body.cro101 .cro-t-101-card-bottom-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+html body.cro101 span.cro-circle img {
+    position: relative;
+    top: -2px;
+    margin-right: 0px;
+    width: 100%;
+    max-width: 18px;
+}
+
+html body.cro101 span.quote.cro-cirlce img {
+    width: 100%;
+    max-width: 18px;
+    position: relative;
+    top: -2px;
+}
+
+html body.cro101 a.cro-t-101-plan-card-bottom-button-text {
+    border-radius: 16px;
+    border: 2px solid #282972;
+    background: #FFF;
+    display: flex;
+    width: 320px;
+    height: 44px;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #282972;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    cursor: pointer;
+    transition: 0.5s all ease;
+    text-decoration: none;
+}
+
+html body.cro101 .cro-t-101-plan-card-bottom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+html body.cro101 a.cta-btn:hover {
+    transition: 0.5s all ease;
+    background-color: #33e2d1 !important;
+    color: #fff;
+    border: 2px solid #FFF;
+}
+
+html body.cro101 a.cro-t-101-plan-card-bottom-button-text:hover {
+    transition: 0.5s all ease;
+    background-color: #33e2d1 !important;
+    border-color: #fff;
+    color: #fff;
+}
+
+html body.cro101 .cro-t-101-card-quote-button:hover {
+    /* transition: 0.5s all ease;
+    background-color: #33e2d1 !important; */
+}
+
+html body.cro101 .cro-t-101-card-quote-button a {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: #33E2D1;
+    box-shadow: 1px 0px 6.4px 0px rgba(99, 99, 99, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html body.cro101 .cro-t-101-card-quote-button a:hover {
+    transition: 0.5s all ease;
+    background-color: #33e2d1 !important;
+}
+html body.cro101 .cro-t-101-card-call-me-button:hover {
+    /* transition: 0.5s all ease;
+    background-color: #33e2d1 !important; */
+}
+
+@media (max-width:1399px) {
+    html body.cro101 .cro-t-101-card-inner-wrapper {
+        justify-content: flex-start;
+        overflow-y: scroll;
+    }
+}
+
+/* @media (max-width:1399px) {} */
+
+@media (max-width:980px) {
+    html body.cro101 .cro-t-101-card-heading-text {
+        font-size: 4.2em;
+        line-height: normal;
+    }
+
+    html body.cro101 .cro-t-101-subheading-text {
+        font-size: 2.25em;
+        line-height: normal;
+    }
+
+    html body.cro101 .cro-t-101-plan-card-wrapper.container {
+        max-width: none !important;
+        width: 100%;
+        margin: 0;
+    }
+
+    html body.cro101 .cro-t-101-card-heading-heading-subheading {
+        width: 100%;
+        max-width: 85%;
+        margin: 0 auto;
+        gap: 20px
+    }
+
+    html body.cro101 .cro-t-101-card-inner-wrapper {
+        padding-left: 60px;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        gap: 24px;
+    }
+
+    html body.cro101 .cro-t-101-card {
+        width: 100%;
+        /* max-width: 420px; */
+
+        padding: 30px;
+        min-width: calc(66%);
+    }
+
+    html body.cro101 .cro-t-101-card-heading-cro-plan,
+    html body.cro101 .cro-t-101-card-heading-cro-from {
+        font-size: 40px;
+    }
+
+    html body.cro101 .cro-t-101-card-heading-price {
+        font-size: 75px;
+        line-height: 70px;
+        padding: 15px 0;
+    }
+
+    html body.cro101 .cro-t-101-card-per-month {
+        font-size: 30px;
+    }
+
+    html body.cro101 .cro-t-101-card-call-me-button a {
+        font-size: 35px;
+        padding: 10px;
+    }
+
+    html body.cro101 span.cro-circle img {
+        top: -5px;
+        max-width: 37px;
+    }
+
+    html body.cro101 .cro-t-101-card-quote-button a {
+        font-size: 35px;
+        padding: 10px;
+    }
+
+    html body.cro101 span.quote.cro-cirlce img {
+        max-width: 37px;
+        top: -4px;
+    }
+
+    html body.cro101 .cro-t-101-card-bottom-part {
+        gap: 0px;
+    }
+
+    .cro-t-101-card-call-me-button {
+        margin-bottom: 20px;
+    }
+
+    html body.cro101 .cro-t-101-card-plan-brochure a {
+        font-size: 30px;
+    }
+
+    html body.cro101 .cro-t-101-card-plan-brochure {
+        display: block;
+        padding: 20px 0;
+        padding-top: 40px;
+    }
+
+    html body.cro101 .cro-t-101-card-plan-brochure img {
+        width: 35px;
+        margin-right: 7px;
+        top: -3px;
+    }
+
+    html body.cro101 .cro-t-101-card-top-part {
+        padding: 34px;
+        border-radius: 20px;
+    }
+
+    html body.cro101 a.cro-t-101-plan-card-bottom-button-text {
+        /* width: 620px; */
+        width: 88%;
+        height: auto;
+        padding: 20px 24px;
+        font-size: 32px;
+        border-radius: 32px;
+    }
+
+    html body.cro101 .cro-t-101-card-heading-cro-plan {
+        padding-bottom: 45px;
+    }
+
+    html body.cro101 .cro-t-101-plan-card-bottom-button {
+        padding-top: 60px;
+    }
+}
+
+/* ----new---design--- */
+/* .cro101 {
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #fff;
+} */
+
+/* .container {
+    max-width: 1200px;
+    margin: auto;
+} */
+
+html body.cro101 .cro101-heading h2 {
+    font-size: 32px;
+    color: #1d1d5e;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+html body.cro101 .cro101-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 56px;
+    flex-wrap: wrap;
+}
+
+html body.cro101 .left img {
+    width: 622px;
+    height: 518px;
+    object-fit: cover;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+html body.cro101 .right p {
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+html body.cro101 .highlight {
+    color: #282972;
+    font-weight: 600;
+}
+
+html body.cro101 .benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+html body.cro101 .benefits li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+html body.cro101 .benefits .icon {
+    font-size: 18px;
+    color: #1d1d5e;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+html body.cro101 .benefits .blue {
+    color: #1d1d5e;
+}
+
+/* .cta-btn {
+    display: inline-block;
+    background-color: #1d1d5e;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+} */
+
+html body.cro101 .cta-btn:hover {
+    background-color: #000e4a;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    html body.cro101 .cro101-heading h2 {
+        font-size: 24px;
+    }
+
+    html body.cro101 .cro101-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    html body.cro101 .left img {
+        width: 100%;
+        height: auto;
+    }
+
+    html body.cro101 .benefits li {
+        justify-content: center;
+        text-align: left;
+    }
+
+    html body.cro101 .right p {
+        text-align: center;
+    }
+}
+
+
+/* ------New-Health-Insurance---- */
+
+html body.cro101 .cro101-Health-Insurance-wrapper {
+    padding: 80px 0;
+}
+
+html body.cro101 .cro101-Health-Insurance-top-heading {
+    padding-bottom: 80px;
+}
+
+html body.cro101 .cro101-Health-Insurance-left img {
+    width: 622px;
+    height: 518px;
+    object-fit: cover;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+html body.cro101 .cro101-Health-Insurance-left {
+    width: 100%;
+    max-width: 622px;
+}
+
+html body.cro101 .cro101-Health-Insurance-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+}
+
+html body.cro101 .cro101-Health-Insurance-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+html body.cro101 p.cro101-Health-Insurance-right-text {
+    color: #000;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+html body.cro101 ul.cro101-Health-Insurance-benefits {
+    padding: 0;
+}
+
+html body.cro101 ul.cro101-Health-Insurance-benefits li::marker {
+    display: none !important;
+}
+
+html body.cro101 ul.cro101-Health-Insurance-benefits li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+html body.cro101 ul.cro101-Health-Insurance-benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 0;
+    width: 100%;
+    max-width: 587px;
+}
+
+html body.cro101 .cro101-Health-Insurance-top-heading h2 {
+    color: #282972;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    margin: 0;
+    width: 100%;
+    max-width: 876px;
+    margin: 0 auto;
+}
+
+html body.cro101 .cro101-Health-Insurance-benefits li span.blue {
+    color: #313079;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+html body.cro101 .cta-btn {
+    background-color: #1d1d5e;
+    text-decoration: none;
+    transition: background 0.3s;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: #282972;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 341px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all ease;
+}
+
+html body.cro101 .cro101-Health-Insurance-benefits li>div {
+    color: #000;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width:1399px) {
+    html body.cro101 .cro101-Health-Insurance-left img {
+        width: 522px;
+        height: 418px;
+    }
+
+    html body.cro101 .cro101-Health-Insurance-left {
+        width: 100%;
+        max-width: 522px;
+    }
+}
+
+@media (max-width:991px) {
+    html body.cro101 .cro101-Health-Insurance-left img {
+        width: 522px;
+        height: 295px;
+    }
+}
+
+@media (max-width:980px) {
+    html body.cro101 .cro101-Health-Insurance-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    html body.cro101 .cro101-Health-Insurance-content {
+        gap: 48px;
+        flex-direction: column;
+    }
+
+    html body.cro101 .cro101-Health-Insurance-left {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    html body.cro101 .cro101-Health-Insurance-top-heading h2 {
+        font-size: 4.5em;
+        line-height: normal;
+    }
+
+    html body.cro101 p.cro101-Health-Insurance-right-text {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+
+    html body.cro101 .cro101-Health-Insurance-benefits li>div {
+        font-size: 2em;
+        line-height: normal;
+    }
+
+    html body.cro101 .cro101-Health-Insurance-benefits li span.blue {
+        font-size: 32px;
+        line-height: normal;
+    }
+
+    html body.cro101 .icon svg {
+        width: 48px;
+        height: 48px;
+    }
+
+    html body.cro101 .cro101-Health-Insurance-top-heading {
+        padding-bottom: 90px;
+    }
+
+    html body.cro101 ul.cro101-Health-Insurance-benefits {
+        max-width: 100%;
+        padding-top: 40px;
+    }
+
+    html body.cro101 a.cta-btn {
+        font-size: 35px;
+        line-height: normal;
+        width: 100%;
+        padding: 15px;
+        height: fit-content;
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 6px solid #fff;
+        margin-top: 20px;
+        border-radius: 32px;
+    }
+
+    html body.cro101 .cro101-Health-Insurance-bottom-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+
+}
+
+/* ---------NEW----FAQ-------- */
+/* html body .cro-t-101-content4 .cro-t-101-header {
+    border-radius: 0px 0px 16px 16px;
+} */
+
+html body.cro101 .cro-t-101-faq-container {
+    background-color: #E9EAEF;
+}
+
+html body.cro101 .cro-t-101-Wrapper {
+    padding: 80px 0;
+}
+
+html body.cro101 .croShow .cro-t-101-drop-down {
+    max-height: 1000px;
+    opacity: 1;
+    transform: translateY(0);
+    /* new--Code- */
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 0px 0px 16px 16px;
+    padding-top: 0;
+    position: relative;
+    z-index: 9;
+}
+
+html body.cro101 .cro-t-101-drop-down {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: max-height .6s ease, opacity .4s ease, transform .6s ease;
+    padding-left: 32px;
+}
+
+html body.cro101 .cro-t-101-header {
+    background-color: #fff;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 16px;
+    gap: 32px;
+}
+
+html body.cro101 .cro-t-101-header-text {
+    color: #000;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+html body.cro101 .cro-t-101-Wrapper-inner {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    /* padding-bottom: 60px; */
+    padding-bottom: 75px;
+}
+
+html body.cro101 .cro-t-101-content.croShow .cro-t-101-header {
+    border-radius: 16px 16px 0px 0px;
+    padding-bottom: 0 !important;
+    position: relative;
+    z-index: 99;
+}
+
+html body.cro101 .cro-t-101-content.croShow svg.cro-icon-close {
+    display: none;
+}
+
+html body.cro101 .cro-t-101-content:not(.croShow) svg.cro-icon-open {
+    display: none;
+}
+
+html body.cro101 .cro-container {
+    width: 100%;
+    max-width: 1096px;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin: 0 auto;
+}
+
+
+html body.cro101 .cro-t-101-drop-down-text {
+    color: #000;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    max-width: 95%;
+}
+
+html body.cro101 .cro-t-101-faq-header {
+    padding-bottom: 64px;
+}
+
+html body.cro101 .cro-t-101-faq-headind-text {
+    color: #282972;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+}
+
+html body.cro101 .cro-t-101-faq-button {
+    color: #282B6E;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: var(--Label-Large-Size, 14px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Label-Large-Line-Height, 20px);
+    letter-spacing: var(--Label-Large-Tracking, 0.1px);
+    padding: 10px 16px;
+    width: 89px;
+    border-radius: 100px;
+    border: 2px solid #282B6E;
+    background: #E3E4FF;
+    height: 44px;
+    cursor: pointer;
+}
+
+html body.cro101 .cro-t-101-faq-button.hospital {
+    width: 108px;
+}
+
+html body.cro101 .cro-t-101-faq-button-parent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 64px 0 32px;
+    gap: 12px;
+}
+
+html body:not(.cro_faq_Hospital_show) .cro-t-101-faq-button.hospital {
+    color: #7E7E7E;
+    text-align: center;
+    /* font-size: var(--Label-Large-Size, 14px);
+    font-style: normal;
+    font-weight: 400; */
+    /* line-height: var(--Label-Large-Line-Height, 20px);
+    letter-spacing: var(--Label-Large-Tracking, 0.1px); */
+    background-color: #fff;
+    border-radius: 100px;
+    border: 2px solid #7E7E7E;
+    background: #FFF;
+}
+
+html body.cro_faq_Hospital_show .cro-t-101-faq-button.hospital {
+    background: #E3E4FF;
+    color: #282B6E;
+    border: 2px solid #282B6E;
+}
+
+html body.cro_faq_Hospital_show .cro-t-101-faq-button.accident {
+    background-color: #fff;
+    border: 2px solid #7E7E7E;
+    color: #7E7E7E;
+}
+
+body:not(.cro_faq_Hospital_show) #cro-t-101-in-accident-faq {
+    display: block;
+}
+
+body.cro_faq_Hospital_show #cro-t-101-in-hospital-faq {
+    display: block !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+body.cro_faq_Hospital_show #cro-t-101-in-accident-faq {
+    display: none !important;
+}
+
+html body.cro101 div#cro-t-101-in-hospital-faq {
+    display: none !important;
+}
+
+html body.cro101 #callbackcolfooter .et_pb_contact {
+    box-shadow: 0px 12px 18px -6px;
+}
+
+html body.cro101 .card-3 .cro101-choose-Oneplan-card-header {
+    width: 100%;
+    max-width: 300px;
+}
+
+html body.cro101 .cro101-choose-Oneplan-card.card-1 {
+    padding: 24px 23px;
+}
+
+@media (max-width:980px) {
+    html body.cro101 .cro-container {
+        width: 100%;
+        max-width: 85%;
+        padding: 80px 0 100px;
+    }
+
+    html body .cro-t-101-header {
+        padding: 50px !important;
+        align-items: flex-start !important;
+    }
+
+    html body.cro101 .cro-t-101-header-text {
+        font-size: 28px;
+    }
+
+    html body.cro101 .cro-t-101-drop-down-text {
+        font-size: 28px !important;
+    }
+
+    html body.cro101 svg.cro-icon-open {
+        width: 45px;
+        height: 45px;
+    }
+
+    html body.cro101 svg.cro-icon-close {
+        width: 45px;
+        height: 45px;
+    }
+
+    html body .croShow .cro-t-101-drop-down {
+        padding: 50px !important;
+        padding-top: 25px !important;
+    }
+
+    html body.cro101 .cro-t-101-faq-button {
+        font-size: 24px;
+        padding: 14px 20px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    html body.cro101 .cro-t-101-faq-button.hospital {
+        width: fit-content;
+    }
+
+    html body.cro101 .cro-t-101-Wrapper-inner {
+        padding-bottom: 0;
+    }
+
+    html body.cro101 #callbackcolfooter .et_pb_contact {
+        border: 0px;
+    }
+
+    html body.cro101 .cro-t-101-faq-headind-text {
+        font-size: 60px;
+    }
+
+    html body.cro101 .card-3 .cro101-choose-Oneplan-card-header {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    html body.cro101 .card-1 .cro101-choose-Oneplan-card-header {
+        width: 100%;
+        max-width: 75%;
+    }
+
+    html body.cro101 .cro101-choose-Oneplan-wrapper {
+        padding-top: 50px;
+        padding-bottom: 128px;
+    }
+
+    html body.cro101 .cro101-reviews-header-subheader {
+        padding-top: 75px;
+    }
+
+    html body.cro101 .cro-t-101-plan-card-wrapper {
+        padding: 150px 0;
+    }
+
+    html body.cro101 .cro101-Health-Insurance-benefits li span.blue {
+        display: inline-block;
+        margin-bottom: 12px !important;
+    }
+
+    html body.cro101 ul.cro101-Health-Insurance-benefits {
+        gap: 25px;
+    }
+
+    html body.cro101 .cro101-Health-Insurance-bottom-button {
+        width: 100%;
+    }
+
+    html body.cro101 .cro-t-101-faq-header {
+        padding-bottom: 90px;
+    }
+
+    html body.cro101 .cro101-choose-Oneplan-card,
+    html body.cro101 .cro-t-101-card,
+    html body.cro101 .cro-t-101-header {
+        border-radius: 30px;
+    }
+
+    html body.cro101 .cro-t-101-card-call-me-button,
+    html body.cro101 .cro-t-101-card-quote-button {
+        border-radius: 24px;
+        height: 94.5px;
+    }
+
+    html body.cro101 .croShow .cro-t-101-drop-down {
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    html body.cro101 .cro-t-101-content.croShow .cro-t-101-header {
+        border-radius: 30px 30px 0px 0px;
+    }
+
+
+}
+
+
+
+/* body:not(.cro_faq_Hospital_show) #cro-t-101-in-accident-faq {
+    display: none !important;
+} */

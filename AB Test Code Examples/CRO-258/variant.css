@@ -1,0 +1,188 @@
+html body.cro-t-116 #main-header .h-desktop-widget {
+    display: none;
+}
+
+html body.cro-t-116 #hero .et_pb_contact {
+    display: flex;
+    flex-direction: column-reverse;
+    box-shadow: none;
+}
+
+html body.cro-t-116 #hero .et_pb_module.et_pb_promo {
+    background-color: #282B6E !important;
+    border-radius: 25px !important;
+    margin-bottom: 32px;
+}
+
+html body.cro-t-116 #hero .et_pb_contact div.et_pb_contact_form.clearfix {
+    border-radius: 25px;
+}
+
+html body.cro-t-116 .cro-t-116-online-quote-text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+
+html body.cro-t-116 #hero .et_pb_contact_submit img.callimg {
+    width: 100%;
+    max-width: 16px;
+    margin-right: 8px;
+    margin-bottom: 3px;
+}
+
+html body.cro-t-116 #hero .et_contact_bottom_container>button {
+    font-weight: 600;
+    font-size: 14px;
+    color: #282B6E !important;
+    line-height: 24px;
+    padding: 5px 20px;
+    background-color: #33E2D1 !important;
+    width: max-content;
+}
+
+html body.cro-t-116 #hero .et_pb_module.et_pb_promo .quotecta button {
+    border-radius: 17px;
+    /* border: 3px solid #FFF; */
+    background: #40AEE1 !important;
+    /* box-shadow: 0px 1px 8px 1px rgba(0, 0, 0, 0.10); */
+    color: #282B6E !important;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Label-Large-Line-Height, 24px);
+    letter-spacing: var(--Label-Large-Tracking, 0.1px);
+    /* width: 100%;
+    max-width: 255px; */
+}
+
+html body.cro-t-116 #hero .et_pb_module.et_pb_cta_.textweight.et_pb_promo {
+    padding-right: 35px !important;
+    padding-left: 35px !important;
+    padding-top: 20px !important;
+    padding-bottom: 32px !important;
+}
+
+html body.cro-t-116 #hero .quotecta {
+    padding-bottom: 0;
+}
+
+html body.cro-t-116 #hero .et_pb_module.et_pb_promo .quotecta button:hover {
+    transition: 0.5s all ease;
+    background-color: #33e2d1 !important;
+    /* color: #fff !important; */
+}
+
+html body.cro-t-116 #hero .et_contact_bottom_container>button:hover {
+    transition: 0.5s all ease;
+    background-color: #40AEE1 !important;
+    /* color: #fff !important; */
+}
+
+html body.cro-t-116 span.cta.cirlce img {
+    /* width: 35px; */
+    margin-right: 8px;
+    right: 0px;
+}
+
+@media (max-width:991px)and (min-width:981px) {
+    html body.cro-t-116 #hero .et_pb_module.et_pb_promo .quotecta button {
+        padding: 7px 10px;
+    }
+}
+
+@media (min-width:981px) {
+    html body.cro-t-116 #hero .et_pb_module.et_pb_promo .quotecta button {
+        width: 100%;
+        max-width: 255px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    html body.cro-t-116 #hero .et_contact_bottom_container>button {
+        width: 100%;
+        max-width: 160px;
+    }
+
+    html body.cro-t-116 #hero .et_pb_contact div.et_pb_contact_form.clearfix {
+        padding-bottom: 32px;
+    }
+}
+
+@media (max-width:980px) {
+    html body.cro-t-116 .quotecta button img {
+        width: 38px;
+        height: 38px;
+    }
+    html body.cro-t-116 .cro-t-116-online-quote-text {
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        max-width: 490px;
+    }
+
+    html body.cro-t-116 #hero .et_pb_module.et_pb_promo .quotecta button {
+        font-size: 35px;
+        width: max-content;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        border: 6px solid #fff;
+        border-radius: 40px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        padding-left: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    html body.cro-t-116 #hero .et_contact_bottom_container>button {
+        font-size: 35px;
+        width: 42%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 6px solid #fff;
+        border-radius: 40px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+
+    html body.cro-t-116 span.cta.cirlce img {
+        width: 35px;
+        margin-right: 8px;
+        right: 0px;
+    }
+
+    html body.cro-t-116 #hero .et_pb_contact_submit img.callimg {
+        width: 100%;
+        max-width: 30px;
+        margin-right: 8px;
+        margin-bottom: 3px;
+    }
+
+    html body.cro-t-116 #hero .et_pb_module.et_pb_cta_.textweight.et_pb_promo {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+    }
+
+    html body.cro-t-116 #main-header .h-mobile-widget {
+        display: none;
+    }
+}
