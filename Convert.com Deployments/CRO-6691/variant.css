@@ -1,0 +1,147 @@
+/* CRO-6691 Review Section Redesign */
+
+/* Hide existing review section */
+html body.cro-6691-review-redesign #reviews .testimonial {
+	display: none !important;
+}
+
+/* New review section */
+html body.cro-6691-review-redesign .cro-6691-review-section {
+	background-color: #F8F8F8;
+	width: 100%;
+	padding: 48px 0;
+}
+
+html body.cro-6691-review-redesign .cro-6691-review-container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 88px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+}
+
+/* Heading */
+html body.cro-6691-review-redesign .cro-6691-review-heading {
+	color: #282972;
+	font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+	font-size: 41.6px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 54.08px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	max-width: 100%;
+}
+
+html body.cro-6691-review-redesign .cro-6691-review-heading .cro-6691-highlight {
+	color: #38a2d7;
+}
+
+/* Carousel wrapper */
+html body.cro-6691-review-redesign .cro-6691-carousel-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 34px;
+	width: 100%;
+	position: relative;
+}
+
+/* Carousel */
+html body.cro-6691-review-redesign .cro-6691-carousel {
+	overflow: hidden;
+	flex: 1;
+	width: 100%;
+}
+
+html body.cro-6691-review-redesign .cro-6691-carousel-track {
+	display: flex;
+	gap: 34px;
+	transition: transform 0.3s ease;
+}
+
+/* Review cards */
+html body.cro-6691-review-redesign .cro-6691-review-card {
+	flex: 0 0 calc(33.333% - 22.67px);
+	min-width: 0;
+}
+
+html body.cro-6691-review-redesign .cro-6691-review-card .testimonial_box {
+	background: #fff;
+	border-radius: 16px;
+	padding: 16px;
+	box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.12);
+	height: 100%;
+}
+
+/* Arrow buttons */
+html body.cro-6691-review-redesign .cro-6691-carousel-arrow {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #40AEE1;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	padding: 7.8px;
+	transition: background-color 0.3s ease;
+}
+
+html body.cro-6691-review-redesign .cro-6691-carousel-arrow:hover {
+	background-color: #38a2d7;
+}
+
+html body.cro-6691-review-redesign .cro-6691-carousel-arrow:active {
+	background-color: #2e8fc4;
+}
+
+html body.cro-6691-review-redesign .cro-6691-carousel-arrow svg {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+html body.cro-6691-review-redesign .cro-6691-arrow-left svg {
+	transform: rotate(180deg);
+}
+
+/* Mobile styles */
+@media (max-width: 991px) {
+	html body.cro-6691-review-redesign .cro-6691-review-container {
+		padding: 0 20px;
+	}
+
+	html body.cro-6691-review-redesign .cro-6691-review-heading {
+		font-size: 32px;
+		line-height: 44px;
+	}
+
+	html body.cro-6691-review-redesign .cro-6691-carousel-wrapper {
+		gap: 20px;
+	}
+
+	html body.cro-6691-review-redesign .cro-6691-review-card {
+		flex: 0 0 calc(100% - 0px);
+	}
+
+	html body.cro-6691-review-redesign .cro-6691-carousel-track {
+		gap: 20px;
+	}
+
+	html body.cro-6691-review-redesign .cro-6691-carousel-arrow {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+/* Tablet styles */
+@media (min-width: 992px) and (max-width: 1199px) {
+	html body.cro-6691-review-redesign .cro-6691-review-container {
+		padding: 0 60px;
+	}
+}
