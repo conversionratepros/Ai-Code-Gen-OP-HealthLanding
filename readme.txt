@@ -13,6 +13,7 @@ Do not create a folder if the folder exists.
 Put all code in existing files. 
 If a folder does not exist you can ask to make one
 Refernce the user story in the folder name supplied in the instruction
+A figma link exists in the user story, you can use this for refernce
 The user story will contain all the details needed for the variation
 All code needs to be added to this folder. 
 Refence the "Corrections" file, these are things that were done wrong when building previous tests
